@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "total_samples": 50,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "intents": [
+      "appointment_scheduling",
+      "insurance_coverage_inquiry",
+      "prescription_refill",
+      "billing_inquiry",
+      "general_inquiry"
+    ]
+  },
+  "samples": [
+    {
+      "filename": "appointment_scheduling_en_1.wav",
+      "text": "Can I book an appointment with Dr. Smith for a check-up?",
+      "language": "en",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_en_1.wav"
+    },
+    {
+      "filename": "appointment_scheduling_en_2.wav",
+      "text": "What are your available slots for a physical examination?",
+      "language": "en",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_en_2.wav"
+    },
+    {
+      "filename": "appointment_scheduling_en_3.wav",
+      "text": "I need to schedule a dental cleaning appointment for next week.",
+      "language": "en",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_en_3.wav"
+    },
+    {
+      "filename": "appointment_scheduling_en_4.wav",
+      "text": "I need to cancel my appointment scheduled for Friday.",
+      "language": "en",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_en_4.wav"
+    },
+    {
+      "filename": "appointment_scheduling_en_5.wav",
+      "text": "I'd like to reschedule my appointment from tomorrow to next Monday.",
+      "language": "en",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_en_5.wav"
+    },
+    {
+      "filename": "appointment_scheduling_es_1.wav",
+      "text": "Necesito programar una cita para limpieza dental la próxima semana.",
+      "language": "es",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_es_1.wav"
+    },
+    {
+      "filename": "appointment_scheduling_es_2.wav",
+      "text": "Necesito cancelar mi cita programada para el viernes.",
+      "language": "es",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_es_2.wav"
+    },
+    {
+      "filename": "appointment_scheduling_es_3.wav",
+      "text": "¿Cuáles son sus horarios disponibles para un examen físico?",
+      "language": "es",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_es_3.wav"
+    },
+    {
+      "filename": "appointment_scheduling_es_4.wav",
+      "text": "¿Puedo agendar una cita con el Dr. Smith para un chequeo?",
+      "language": "es",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_es_4.wav"
+    },
+    {
+      "filename": "appointment_scheduling_es_5.wav",
+      "text": "Me gustaría reprogramar mi cita de mañana para el próximo lunes.",
+      "language": "es",
+      "intent": "appointment_scheduling",
+      "path": "test_data/appointment_scheduling_es_5.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_en_1.wav",
+      "text": "Can you verify my insurance coverage for this procedure?",
+      "language": "en",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_en_1.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_en_2.wav",
+      "text": "Does my insurance cover dental implants?",
+      "language": "en",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_en_2.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_en_3.wav",
+      "text": "I need to know if my plan covers physical therapy sessions.",
+      "language": "en",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_en_3.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_en_4.wav",
+      "text": "Is this medication covered under my current insurance?",
+      "language": "en",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_en_4.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_en_5.wav",
+      "text": "What's my copay for specialist visits?",
+      "language": "en",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_en_5.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_es_1.wav",
+      "text": "¿Cuál es mi copago para visitas al especialista?",
+      "language": "es",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_es_1.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_es_2.wav",
+      "text": "Necesito saber si mi plan cubre sesiones de fisioterapia.",
+      "language": "es",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_es_2.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_es_3.wav",
+      "text": "¿Mi seguro cubre implantes dentales?",
+      "language": "es",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_es_3.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_es_4.wav",
+      "text": "¿Este medicamento está cubierto por mi seguro actual?",
+      "language": "es",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_es_4.wav"
+    },
+    {
+      "filename": "insurance_coverage_inquiry_es_5.wav",
+      "text": "¿Puede verificar mi cobertura de seguro para este procedimiento?",
+      "language": "es",
+      "intent": "insurance_coverage_inquiry",
+      "path": "test_data/insurance_coverage_inquiry_es_5.wav"
+    },
+    {
+      "filename": "prescription_refill_en_1.wav",
+      "text": "I'm running low on my diabetes medication, need a refill.",
+      "language": "en",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_en_1.wav"
+    },
+    {
+      "filename": "prescription_refill_en_2.wav",
+      "text": "I need a refill for my blood pressure medication.",
+      "language": "en",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_en_2.wav"
+    },
+    {
+      "filename": "prescription_refill_en_3.wav",
+      "text": "How do I request a refill for my maintenance medication?",
+      "language": "en",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_en_3.wav"
+    },
+    {
+      "filename": "prescription_refill_en_4.wav",
+      "text": "My prescription is about to expire, can I get a refill?",
+      "language": "en",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_en_4.wav"
+    },
+    {
+      "filename": "prescription_refill_en_5.wav",
+      "text": "Can you refill my prescription for antibiotics?",
+      "language": "en",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_en_5.wav"
+    },
+    {
+      "filename": "prescription_refill_es_1.wav",
+      "text": "Necesito un reabastecimiento de mi medicamento para la presión arterial.",
+      "language": "es",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_es_1.wav"
+    },
+    {
+      "filename": "prescription_refill_es_2.wav",
+      "text": "¿Cómo solicito un reabastecimiento de mi medicamento de mantenimiento?",
+      "language": "es",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_es_2.wav"
+    },
+    {
+      "filename": "prescription_refill_es_3.wav",
+      "text": "Me estoy quedando sin mi medicamento para la diabetes, necesito un reabastecimiento.",
+      "language": "es",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_es_3.wav"
+    },
+    {
+      "filename": "prescription_refill_es_4.wav",
+      "text": "¿Puede reabastecer mi receta de antibióticos?",
+      "language": "es",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_es_4.wav"
+    },
+    {
+      "filename": "prescription_refill_es_5.wav",
+      "text": "Mi receta está por vencer, ¿puedo obtener un reabastecimiento?",
+      "language": "es",
+      "intent": "prescription_refill",
+      "path": "test_data/prescription_refill_es_5.wav"
+    },
+    {
+      "filename": "billing_inquiry_en_1.wav",
+      "text": "Can you explain the charges for my recent visit?",
+      "language": "en",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_en_1.wav"
+    },
+    {
+      "filename": "billing_inquiry_en_2.wav",
+      "text": "What's the cost for a routine check-up?",
+      "language": "en",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_en_2.wav"
+    },
+    {
+      "filename": "billing_inquiry_en_3.wav",
+      "text": "I need to understand my last medical bill.",
+      "language": "en",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_en_3.wav"
+    },
+    {
+      "filename": "billing_inquiry_en_4.wav",
+      "text": "I received a bill that seems incorrect, can you help?",
+      "language": "en",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_en_4.wav"
+    },
+    {
+      "filename": "billing_inquiry_en_5.wav",
+      "text": "Do you offer payment plans for medical procedures?",
+      "language": "en",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_en_5.wav"
+    },
+    {
+      "filename": "billing_inquiry_es_1.wav",
+      "text": "¿Cuál es el costo de un chequeo de rutina?",
+      "language": "es",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_es_1.wav"
+    },
+    {
+      "filename": "billing_inquiry_es_2.wav",
+      "text": "Necesito entender mi última factura médica.",
+      "language": "es",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_es_2.wav"
+    },
+    {
+      "filename": "billing_inquiry_es_3.wav",
+      "text": "Recibí una factura que parece incorrecta, ¿puede ayudarme?",
+      "language": "es",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_es_3.wav"
+    },
+    {
+      "filename": "billing_inquiry_es_4.wav",
+      "text": "¿Ofrecen planes de pago para procedimientos médicos?",
+      "language": "es",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_es_4.wav"
+    },
+    {
+      "filename": "billing_inquiry_es_5.wav",
+      "text": "¿Puede explicar los cargos de mi visita reciente?",
+      "language": "es",
+      "intent": "billing_inquiry",
+      "path": "test_data/billing_inquiry_es_5.wav"
+    },
+    {
+      "filename": "general_inquiry_en_1.wav",
+      "text": "Do you accept walk-in patients?",
+      "language": "en",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_en_1.wav"
+    },
+    {
+      "filename": "general_inquiry_en_2.wav",
+      "text": "What documents do I need to bring for my first visit?",
+      "language": "en",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_en_2.wav"
+    },
+    {
+      "filename": "general_inquiry_en_3.wav",
+      "text": "How do I access my medical records online?",
+      "language": "en",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_en_3.wav"
+    },
+    {
+      "filename": "general_inquiry_en_4.wav",
+      "text": "What's the best way to contact the doctor after hours?",
+      "language": "en",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_en_4.wav"
+    },
+    {
+      "filename": "general_inquiry_en_5.wav",
+      "text": "What are your office hours?",
+      "language": "en",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_en_5.wav"
+    },
+    {
+      "filename": "general_inquiry_es_1.wav",
+      "text": "¿Cuáles son sus horarios de atención?",
+      "language": "es",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_es_1.wav"
+    },
+    {
+      "filename": "general_inquiry_es_2.wav",
+      "text": "¿Aceptan pacientes sin cita?",
+      "language": "es",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_es_2.wav"
+    },
+    {
+      "filename": "general_inquiry_es_3.wav",
+      "text": "¿Qué documentos necesito traer para mi primera visita?",
+      "language": "es",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_es_3.wav"
+    },
+    {
+      "filename": "general_inquiry_es_4.wav",
+      "text": "¿Cuál es la mejor manera de contactar al médico fuera de horario?",
+      "language": "es",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_es_4.wav"
+    },
+    {
+      "filename": "general_inquiry_es_5.wav",
+      "text": "¿Cómo accedo a mis registros médicos en línea?",
+      "language": "es",
+      "intent": "general_inquiry",
+      "path": "test_data/general_inquiry_es_5.wav"
+    }
+  ]
+}
